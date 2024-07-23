@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<title>
+   Redirect testin
+</title>
+<meta name="viewport" content="width=device-width, user-scalable=no">
+<meta name="title" content="Testing">
+<meta name="site_name" content="Testing">
+<meta name="apple-itunes-app" content="id422689480">
+<link rel="stylesheet" media="all" href="ispinner.prefixed.css">
+<style type="text/css">
+   html {
+      font-family: sans-serif;
+      -ms-text-size-adjust: 100%;
+      -webkit-text-size-adjust: 100%;
+      font: 1em/1.5 "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+      color: #0C0D0D;
+      text-rendering: optimizeLegibility;
+   }
+
+   body {
+      margin: 0;
+   }
+
+   a {
+      background: 0 0;
+   }
+
+   h1 {
+      font-size: 2em;
+      margin: 0.67em 0;
+   }
+
+   img {
+      border: 0;
+      font-style: italic;
+      max-width: 100%;
+      vertical-align: top;
+   }
+
+   h1,
+   h2,
+   h3,
+   h4,
+   h5,
+   h6,
+   p,
+   ul {
+      margin-bottom: 1rem;
+   }
+
+   hr {
+      margin-bottom: 22px;
+      margin-bottom: 1.375rem;
+   }
+
+   .container {
+      padding-left: 1em;
+      padding-right: 1em;
+   }
+
+   .header-logo {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 75px;
+   }
+
+   .font-medium {
+      font-size: 1.2rem;
+   }
+
+   .font-light {
+      font-size: 1.0rem;
+   }
+
+   .text-center {
+      text-align: center;
+      padding: 5px 0;
+   }
+   #countdown {
+            font-size: 48px;
+            font-weight: bold;
+            color: #333;
+        }
+   .ispinner {
+      position: relative;
+      width: 20px;
+      height: 20px; }
+      .ispinner .ispinner-blade {
+         position: absolute;
+         top: 6.5px;
+         left: 8.5px;
+         width: 2.5px;
+         height: 6.5px;
+         background-color: #8e8e93;
+         border-radius: 1.25px;
+         -webkit-animation: iSpinnerBlade 1s linear infinite;
+                  animation: iSpinnerBlade 1s linear infinite;
+         will-change: opacity; }
+    .ispinner .ispinner-blade:nth-child(1) {
+      -webkit-transform: rotate(45deg) translateY(-6.5px);
+              transform: rotate(45deg) translateY(-6.5px);
+      -webkit-animation-delay: -1.625s;
+              animation-delay: -1.625s; }
+    .ispinner .ispinner-blade:nth-child(2) {
+      -webkit-transform: rotate(90deg) translateY(-6.5px);
+              transform: rotate(90deg) translateY(-6.5px);
+      -webkit-animation-delay: -1.5s;
+              animation-delay: -1.5s; }
+    .ispinner .ispinner-blade:nth-child(3) {
+      -webkit-transform: rotate(135deg) translateY(-6.5px);
+              transform: rotate(135deg) translateY(-6.5px);
+      -webkit-animation-delay: -1.375s;
+              animation-delay: -1.375s; }
+    .ispinner .ispinner-blade:nth-child(4) {
+      -webkit-transform: rotate(180deg) translateY(-6.5px);
+              transform: rotate(180deg) translateY(-6.5px);
+      -webkit-animation-delay: -1.25s;
+              animation-delay: -1.25s; }
+    .ispinner .ispinner-blade:nth-child(5) {
+      -webkit-transform: rotate(225deg) translateY(-6.5px);
+              transform: rotate(225deg) translateY(-6.5px);
+      -webkit-animation-delay: -1.125s;
+              animation-delay: -1.125s; }
+    .ispinner .ispinner-blade:nth-child(6) {
+      -webkit-transform: rotate(270deg) translateY(-6.5px);
+              transform: rotate(270deg) translateY(-6.5px);
+      -webkit-animation-delay: -1s;
+              animation-delay: -1s; }
+    .ispinner .ispinner-blade:nth-child(7) {
+      -webkit-transform: rotate(315deg) translateY(-6.5px);
+              transform: rotate(315deg) translateY(-6.5px);
+      -webkit-animation-delay: -0.875s;
+              animation-delay: -0.875s; }
+    .ispinner .ispinner-blade:nth-child(8) {
+      -webkit-transform: rotate(360deg) translateY(-6.5px);
+              transform: rotate(360deg) translateY(-6.5px);
+      -webkit-animation-delay: -0.75s;
+              animation-delay: -0.75s; }
+   .ispinner.ispinner-large {
+      width: 35px;
+      height: 35px; }
+      .ispinner.ispinner-large .ispinner-blade {
+         top: 11.5px;
+         left: 15px;
+         width: 5px;
+         height: 12px;
+         border-radius: 2.5px; }
+   .ispinner.ispinner-large .ispinner-blade:nth-child(1) {
+      -webkit-transform: rotate(45deg) translateY(-11.5px);
+               transform: rotate(45deg) translateY(-11.5px); }
+   .ispinner.ispinner-large .ispinner-blade:nth-child(2) {
+      -webkit-transform: rotate(90deg) translateY(-11.5px);
+               transform: rotate(90deg) translateY(-11.5px); }
+   .ispinner.ispinner-large .ispinner-blade:nth-child(3) {
+      -webkit-transform: rotate(135deg) translateY(-11.5px);
+               transform: rotate(135deg) translateY(-11.5px); }
+   .ispinner.ispinner-large .ispinner-blade:nth-child(4) {
+      -webkit-transform: rotate(180deg) translateY(-11.5px);
+               transform: rotate(180deg) translateY(-11.5px); }
+   .ispinner.ispinner-large .ispinner-blade:nth-child(5) {
+      -webkit-transform: rotate(225deg) translateY(-11.5px);
+               transform: rotate(225deg) translateY(-11.5px); }
+   .ispinner.ispinner-large .ispinner-blade:nth-child(6) {
+      -webkit-transform: rotate(270deg) translateY(-11.5px);
+               transform: rotate(270deg) translateY(-11.5px); }
+   .ispinner.ispinner-large .ispinner-blade:nth-child(7) {
+      -webkit-transform: rotate(315deg) translateY(-11.5px);
+               transform: rotate(315deg) translateY(-11.5px); }
+   .ispinner.ispinner-large .ispinner-blade:nth-child(8) {
+      -webkit-transform: rotate(360deg) translateY(-11.5px);
+               transform: rotate(360deg) translateY(-11.5px); }
+
+@-webkit-keyframes iSpinnerBlade {
+  0% {
+    opacity: 0.85; }
+  50% {
+    opacity: 0.25; }
+  100% {
+    opacity: 0.25; } }
+
+@keyframes iSpinnerBlade {
+  0% {
+    opacity: 0.85; }
+  50% {
+    opacity: 0.25; }
+  100% {
+    opacity: 0.25; } }
+
+</style>
+</head>
+
+<body onload="redirect()">
+   <div id="body-children-inline" style="display: flex; justify-content: center;">
+      <div style="position: fixed;left:50%; top: 100px; transform: translate(-50%,-50%);" class="ispinner ispinner-large">
+         <div class="ispinner-blade"></div>
+         <div class="ispinner-blade"></div>
+         <div class="ispinner-blade"></div>
+         <div class="ispinner-blade"></div>
+         <div class="ispinner-blade"></div>
+         <div class="ispinner-blade"></div>
+         <div class="ispinner-blade"></div>
+         <div class="ispinner-blade"></div>
+      </div>      
+   </div>
+   <script type="text/javascript">
+      function redirect() {
+
+         var interval = setInterval(function() {
+            clearInterval(interval);
+            window.location.href = 'https://google.com';
+         }, 500);
+
+         var action = decodeURIComponent(getParamValue('a'));
+         var title = decodeURIComponent(getParamValue('n'));
+         var url = 'testing://test/' + action
+
+         window.location.href = url;
+      }
+
+      function getParamValue(querystring) {
+         var qstring = window.location.href.slice(window.location.href.indexOf('?') + 1).split('&');
+         for (var i = 0; i < qstring.length; i++) {
+            var urlparam = qstring[i].split('=');
+            if (urlparam[0] == querystring) {
+               return urlparam[1];
+            }
+         }
+      }
+
+      </script>
+</body>
+
+</html>
